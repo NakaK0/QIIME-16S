@@ -262,6 +262,7 @@ An R value near +1 means there is dissimilarity between groups for mapping file 
 
 ******
 ##Other diversity analysis methods that could be considered 
+
 ### Comparing distance matrices through Mantel test
 The input for this script is a mapping file and the name of a column, it has to be numeric, from which a distance matrix will be created. The output of this script is a distance matrix containing a dissimilarity value for each pairwise comparison. Therefore, the sample N, K and P categories is not able to create distance matrices. The 5 categories (Longitude, Latitude, Depth, pH and weather temperature) is run with [distance_matrix_from_mapping.py](http://qiime.org/scripts/distance_matrix_from_mapping.html) to create .dm.txt files.
 By using  [compare_distance_matrices.py](http://qiime.org/tutorials/distance_matrix_comparison.html), all of the currently available comparison techniques are based on the Mantel test, which is a non-parametric statistical method that computes the correlation between two distance matrices. In addition to this statistical method, QIIME also provides the partial Mantel test and Mantel correlogram. One common application of distance matrix comparison techniques is to determine if correlation exists between a community distance matrix (e.g. UniFrac distance matrix) and a second matrix derived from an environmental parameter that is numeric/continuous in nature (e.g. pH, Latitute, Longitude, depth and weather temperature). Mantel test to test the correlation between 2 matrices as shown below:
@@ -297,10 +298,13 @@ Lat_dm.txt      Depth_dm.txt    30      0.17292 0.161   999     two-sided
 Lat_dm.txt      Weather_dm.txt  30      0.28072 0.054   999     two-sided
 Long_dm.txt     Depth_dm.txt    30      0.00705 0.980   999     two-sided
 Long_dm.txt     Weather_dm.txt  30      0.36869 0.028   999     two-sided
-Depth_dm.txt    Weather_dm.txt  30      -0.08915        0.407   999     two-sided```
+Depth_dm.txt    Weather_dm.txt  30      -0.08915        0.407   999     two-sided
+```
 The Mantel r statstic determines the correlation between the two distance matrices. An r value +1 indicates strong positive correlation while -1 means strong negative correlation. 
 ********
+
 ### Mapping phylogenetic tree using Cytoscape
+
 Using [make bipartite network] (http://qiime.org/scripts/make_bipartite_network.html), we could visualise the phylogenetic tree of the microbial composition in the soil other than summarizing the taxa through plots in core diversity analysis step.
 
 
