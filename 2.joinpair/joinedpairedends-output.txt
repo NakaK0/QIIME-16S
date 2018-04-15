@@ -1,0 +1,5 @@
+total 6.0G
+-rw-r--r-- 1 cbmucl33 cbmucl33 333M Apr  6 23:17 fastqjoin.un1.fastq
+-rw-r--r-- 1 cbmucl33 cbmucl33 333M Apr  6 23:17 fastqjoin.un2.fastq
+-rw-r--r-- 1 cbmucl33 cbmucl33 4.7G Apr  6 23:17 fastqjoin.join.fastq
+-rw-r--r-- 1 cbmucl33 cbmucl33 634M Apr  6 23:20 fastqjoin.join_barcodes.fastq

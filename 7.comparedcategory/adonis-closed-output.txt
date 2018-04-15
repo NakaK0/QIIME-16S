@@ -1,0 +1,21 @@
+
+
+Call:
+adonis(formula = as.dist(qiime.data$distmat) ~ qiime.data$map[[opts$category]],      permutations = opts$num_permutations)
+
+Permutation: free
+Number of permutations: 999
+
+Terms added sequentially (first to last)
+
+                                Df SumsOfSqs MeanSqs F.Model      R2 Pr(>F)
+qiime.data$map[[opts$category]]  1    0.2074 0.20738  1.1464 0.03933  0.094 .
+Residuals                       28    5.0650 0.18089         0.96067
+Total                           29    5.2724                 1.00000
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Category: SamplePh
+R2 = 0.039 = 4% of the sums of squares can be explained by the Category.
+null hypothesis: There is no significant difference between samples in Category, any observed difference being due to sampling or experimental error.
+p-value = 0.094, more than 0.05, fail to reject null hypothesis

@@ -1,0 +1,43 @@
+Quality filter results
+Total number of input sequences: 8052331
+Barcode not in mapping file: 2618719
+Read too short after quality truncation: 35
+Count of N characters exceeds limit: 0
+Illumina quality digit = 0: 0
+Barcode errors exceed max: 0
+
+Result summary (after quality filtering)
+Median sequence length: 253.00
+515rcbc12       1897048
+515rcbc22       226507
+515rcbc24       207754
+515rcbc10       203992
+515rcbc16       195024
+515rcbc29       186744
+515rcbc26       178186
+515rcbc19       164178
+515rcbc30       152478
+515rcbc31       144588
+515rcbc25       143734
+515rcbc14       138567
+515rcbc21       136703
+515rcbc18       129021
+515rcbc28       126847
+515rcbc15       121869
+515rcbc17       121310
+515rcbc33       116212
+515rcbc11       108975
+515rcbc32       103025
+515rcbc35       100686
+515rcbc23       82284
+515rcbc27       78301
+515rcbc9        73051
+515rcbc34       71672
+515rcbc37       69738
+515rcbc13       66926
+515rcbc8        47431
+515rcbc36       39943
+515rcbc20       783
+
+Total number seqs written       5433577
+---

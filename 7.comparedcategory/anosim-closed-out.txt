@@ -1,0 +1,13 @@
+method name     ANOSIM
+test statistic name     R
+sample size     30
+number of groups        9
+test statistic  0.10082738481505514
+p-value 0.154
+number of permutations  999
+
+Category: SamplePh
+R value near +1 means dissimilarity between groups for this Category
+R value near 0 indicates no significant dissimilarity between the groups
+R statistic = 0.101, grouping of samples based on individual is weak for this category
+p-value = 0.154, more than 0.05, statistically not significant 

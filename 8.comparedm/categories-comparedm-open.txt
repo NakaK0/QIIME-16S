@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH -t 1:00:00
+#SBATCH -n 24
+#SBATCH -p short
+
+#Load modules
+module load eb
+module load Miniconda2
+
+# loading virtualenv
+source activate qiime1
+
+# setting temporary directory
+export TMPDIR=~/qiime_tmp
+
+# distance matrix from mapping
+echo " distance matrix from mapping"
+time compare_distance_matrices.py \
+--method=mantel \
+-i unweighted_unifrac_dm.txt,weighted_unifrac_dm.txt,PH_dm.txt,Lat_dm.txt,Long_dm.txt,Depth_dm.txt,Weather_dm.txt \
+-o ~/2018_02_smb/comparedm/all_open \
+-n 999
+
+# deactivating environment
+source deactivate

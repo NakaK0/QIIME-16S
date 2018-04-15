@@ -1,0 +1,17 @@
+total 409M
+drwxr-xr-x 2 cbmucl33 cbmucl33 4.0K Apr  7 23:50 step1_otus
+drwxr-xr-x 2 cbmucl33 cbmucl33 4.0K Apr  7 23:50 step2_otus
+drwxr-xr-x 2 cbmucl33 cbmucl33 4.0K Apr  7 23:51 step3_otus
+-rw-r--r-- 1 cbmucl33 cbmucl33  97M Apr  7 23:55 final_otu_map.txt
+drwxr-xr-x 2 cbmucl33 cbmucl33 4.0K Apr  7 23:55 step4_otus
+-rw-r--r-- 1 cbmucl33 cbmucl33  93M Apr  7 23:55 final_otu_map_mc2.txt
+-rw-r--r-- 1 cbmucl33 cbmucl33 154M Apr  7 23:55 new_refseqs.fna
+-rw-r--r-- 1 cbmucl33 cbmucl33  20M Apr  7 23:55 rep_set.fna
+-rw-r--r-- 1 cbmucl33 cbmucl33 4.2M Apr  7 23:55 otu_table_mc2.biom
+drwxr-xr-x 2 cbmucl33 cbmucl33 4.0K Apr  7 23:55 uclust_assigned_taxonomy
+-rw-r--r-- 1 cbmucl33 cbmucl33  20M Apr  7 23:56 otu_table_mc2_w_tax.biom
+drwxr-xr-x 2 cbmucl33 cbmucl33 4.0K Apr  7 23:58 pynast_aligned_seqs
+-rw-r--r-- 1 cbmucl33 cbmucl33 3.2M Apr  8 00:23 rep_set.tre
+-rw-r--r-- 1 cbmucl33 cbmucl33  20M Apr  8 00:23 otu_table_mc2_w_tax_no_pynast_failures.biom
+-rw-r--r-- 1 cbmucl33 cbmucl33 5.6K Apr  8 00:23 log_20180407234530.txt
+-rw-r--r-- 1 cbmucl33 cbmucl33 2.6K Apr  8 00:23 index.html

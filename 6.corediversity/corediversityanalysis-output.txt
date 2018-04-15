@@ -1,0 +1,9 @@
+total 1.3M
+drwxr-xr-x 4 cbmucl33 cbmucl33 4.0K Apr  7 01:27 arare_max616
+drwxr-xr-x 4 cbmucl33 cbmucl33 4.0K Apr  7 01:28 bdiv_even616
+-rw-r--r-- 1 cbmucl33 cbmucl33  918 Apr  7 01:28 biom_table_summary.txt
+-rw-r--r-- 1 cbmucl33 cbmucl33 2.7K Apr  7 01:28 index.html
+-rw-r--r-- 1 cbmucl33 cbmucl33 5.6K Apr  7 01:28 log_20180406211900.txt
+-rw-r--r-- 1 cbmucl33 cbmucl33 194K Apr  7 01:28 table_even616.biom.gz
+-rw-r--r-- 1 cbmucl33 cbmucl33 1.1M Apr  7 01:28 table_mc616.biom.gz
+drwxr-xr-x 3 cbmucl33 cbmucl33 4.0K Apr  7 01:29 taxa_plots

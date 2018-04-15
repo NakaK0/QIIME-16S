@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH -t 1:00:00
+#SBATCH -n 24
+#SBATCH -p short
+
+#Load modules
+module load eb
+module load Miniconda2
+cat
+# loading virtualenv
+source activate qiime1
+
+# setting temporary directory
+export TMPDIR=~/qiime_tmp
+
+# comparing categoris fro statistical significant
+echo "compare categories"
+time compare_categories.py \
+--method anosim \
+-i ~/2018_02_smb/cda-open/bdiv_even764/unweighted_unifrac_dm.txt \
+-m ~/2018_02_smb/map.tsv \
+-c SampleDepth \
+-o ~/2018_02_smb/sampledepth/anosim_open \
+-n 999
+
+# deactivating environment
+source deactivate

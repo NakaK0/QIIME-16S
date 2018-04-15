@@ -1,0 +1,5 @@
+total 6.1M
+drwxr-xr-x 2 cbmucl33 cbmucl33 4.0K Apr  7 00:15 uclust_ref_picked_otus
+-rw-r--r-- 1 cbmucl33 cbmucl33 3.7M Apr  7 00:15 otu_table.biom
+-rw-r--r-- 1 cbmucl33 cbmucl33 2.0K Apr  7 00:15 log_20180406235444.txt
+-rw-r--r-- 1 cbmucl33 cbmucl33 2.5M Apr  7 00:15 97_otus.tree

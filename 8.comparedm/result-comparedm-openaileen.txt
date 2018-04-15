@@ -1,0 +1,26 @@
+# Number of entries refers to the number of rows (or cols) retained in each
+# distance matrix after filtering the distance matrices to include only those
+# samples that were in both distance matrices. p-value contains the correct
+# number of significant digits.
+DM1     DM2     Number of entries       Mantel r statistic      p-value Number of permutations  Tail type
+unweighted_unifrac_dm.txt       weighted_unifrac_dm.txt 30      0.82452 0.001   999     two-sided
+unweighted_unifrac_dm.txt       PH_dm.txt       30      0.02905 0.407   999     two-sided
+unweighted_unifrac_dm.txt       Lat_dm.txt      30      0.12229 0.370   999     two-sided
+unweighted_unifrac_dm.txt       Long_dm.txt     30      0.04409 0.734   999     two-sided
+unweighted_unifrac_dm.txt       Depth_dm.txt    30      0.10678 0.429   999     two-sided
+unweighted_unifrac_dm.txt       Weather_dm.txt  30      -0.08082        0.435   999     two-sided
+weighted_unifrac_dm.txt PH_dm.txt       30      0.01666 0.577   999     two-sided
+weighted_unifrac_dm.txt Lat_dm.txt      30      0.10321 0.413   999     two-sided
+weighted_unifrac_dm.txt Long_dm.txt     30      -0.01557        0.897   999     two-sided
+weighted_unifrac_dm.txt Depth_dm.txt    30      0.11316 0.382   999     two-sided
+weighted_unifrac_dm.txt Weather_dm.txt  30      -0.11522        0.254   999     two-sided
+PH_dm.txt       Lat_dm.txt      30      -0.00772        0.756   999     two-sided
+PH_dm.txt       Long_dm.txt     30      0.01544 0.650   999     two-sided
+PH_dm.txt       Depth_dm.txt    30      -0.02707        0.401   999     two-sided
+PH_dm.txt       Weather_dm.txt  30      0.01413 0.678   999     two-sided
+Lat_dm.txt      Long_dm.txt     30      0.92115 0.002   999     two-sided
+Lat_dm.txt      Depth_dm.txt    30      0.17292 0.161   999     two-sided
+Lat_dm.txt      Weather_dm.txt  30      0.28072 0.054   999     two-sided
+Long_dm.txt     Depth_dm.txt    30      0.00705 0.980   999     two-sided
+Long_dm.txt     Weather_dm.txt  30      0.36869 0.028   999     two-sided
+Depth_dm.txt    Weather_dm.txt  30      -0.08915        0.407   999     two-sided

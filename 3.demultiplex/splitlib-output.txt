@@ -1,0 +1,4 @@
+total 2.0G
+-rw-r--r-- 1 cbmucl33 cbmucl33 2.0G Apr  6 23:42 seqs.fna
+-rw-r--r-- 1 cbmucl33 cbmucl33 1.2K Apr  6 23:42 split_library_log.txt
+-rw-r--r-- 1 cbmucl33 cbmucl33  303 Apr  6 23:42 histograms.txt
